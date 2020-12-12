@@ -1,0 +1,229 @@
+* {
+    position: absolute;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9dfef6;
+  }
+ 
+ .container {
+   width: 170px;
+   height: 350px;
+   background: rgb(8, 0, 0);
+   border-radius: 20px;
+} 
+
+ .mob {
+   position: relative;
+   width: 92%;
+   height: 96.5%;
+   margin: 6px 0px 20px 7px;
+   border-radius: 20px;
+   background: whitesmoke;
+}
+
+ .camera {
+   position: absolute;
+   width: 4%;
+   height: 2%;
+   border-radius: 50%;
+   background: black;
+   margin: 10px 0px 0px 43px;
+}
+
+ .speaker {
+   position: absolute;
+   width: 20%;
+   height: 0.7%;
+   border-radius: 50%;
+   background: black;
+   margin: 13px 0px 0px 65px;
+}
+
+ .sensor {
+   position: absolute;
+   width: 4%;
+   height: 2%;
+   border-radius: 50%;
+   background: black;
+   margin: 10px 0px 0px 113px;
+}
+
+ .display {
+   position: absolute;
+   width: 97%;
+   height: 86%;
+   margin: 24px 0px 0px 2.5px;
+   background: rgb(31, 3, 3);
+   border-radius: 13px;
+}
+
+ img {
+   width: 100%; 
+   height: 100%;
+   border-radius: 13px;
+   visibility: hidden;
+}
+
+ .display:hover img {
+   visibility: visible;
+}
+
+ .button {
+   position: absolute;
+   width: 8%;
+   height: 4%;
+   border: 2px solid gold;
+   margin: 316px 0px 0px 72px;
+   background: white;
+   border-radius: 50%;
+}
+
+@media screen and (max-width: 320px) {
+   .container {
+     width: 80px;
+     height: 110px;
+} 
+
+  .mob {
+    position: relative;
+    width: 91%;
+    height: 94%;
+    margin: 4px 0px 20px 4px;
+    border-radius: 20px;
+    background: whitesmoke;
+}
+
+  .camera {
+    position: absolute;
+    width: 4%;
+    height: 3%;
+    border-radius: 50%;
+    background: black;
+    margin: 6px 0px 0px 20px;
+}
+
+
+  .speaker {
+    position: absolute;
+    width: 20%;
+    height: 0.7%;
+    border-radius: 50%;
+    background: black;
+    margin: 7.2px 0px 0px 29px;
+}
+
+  .sensor {
+    position: absolute;
+    width: 4%;
+    height: 3%;
+    border-radius: 50%;
+    background: black;
+    margin: 6px 0px 0px 51px;
+}
+
+  .display {
+    position: absolute;
+    width: 96%;
+    height: 74%;
+    margin: 13.5px 0px 0px 1.5px;
+    background: rgb(31, 3, 3);
+    border-radius: 13px;
+}
+  
+  img {
+    width: 100%; 
+    height: 100%;
+    border-radius: 13px;
+    visibility: hidden;
+}
+
+  .display:hover img {
+    visibility: visible;
+}
+  .button {
+    position: absolute;
+    width: 10%;
+    height: 7%;
+    border: 2px solid gold;
+    margin: 91px 0px 0px 30px;
+    background: white;
+    border-radius: 50%;
+} 
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 230px;
+    height: 403px;
+} 
+
+  .mob {
+    position: relative;
+    width: 94%;
+    height: 97%;
+    margin: 6px 0px 20px 6px;
+}
+
+  .camera {
+    position: absolute;
+    width: 4%;
+    height: 2%;
+    border-radius: 50%;
+    margin: 8px 0px 0px 58px;
+}
+
+  .speaker {
+    position: absolute;
+    width: 20%;
+    height: 0.7%;
+    margin: 10.5px 0px 0px 84px;
+}
+
+  .sensor {
+    margin: 8px 0px 0px 143px;
+}
+
+  .display {
+    width: 97%;
+    height: 86.2%;
+    margin: 26px 0px 0px 3.5px;
+}
+  
+  img {
+    width: 100%; 
+    height: 100%;
+    border-radius: 13px;
+    visibility: hidden;
+}
+
+  .display:hover img {
+    visibility: visible;
+}
+
+  .button {
+    width: 9%;
+    height: 5%;
+    margin: 365px 0px 0px 97px;
+
+}
+}
+
+
+ 
